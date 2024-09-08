@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <style>
+        /* Styles for centering content and adjusting the background image */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 1px;
+            background: url('https://this-quiz.com/wp-content/uploads/2021/06/15-question-book-quiz.jpg') no-repeat center top; /* Positioned at the top and centered */
+            background-size: 85%; /* Minimizes the image to 50% of its original size */
+            background-color: #f0f0f0; /* Adds a background color around the minimized image */
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for readability */
+            padding: 20px;
+            border-radius: 10px;
+            height: 180px;
+            width: 600px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #001e4d;
+        }
+
+        .btn {
+            background-color: #001e4d;
+            color: #fff;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Are You Ready To Check Your Knowledge!!!</h1>
+        <br>
+        <!-- Smaller button to go to index.html -->
+        <button class="btn" onclick="location.href='index.html';">Start Quiz</button>
+    </div>
+</body>
+</html>
